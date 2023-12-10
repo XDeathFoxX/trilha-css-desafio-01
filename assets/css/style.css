@@ -1,0 +1,190 @@
+@import url('./reset.css');
+@font-face {
+    font-family: Raleway;
+    src: local(Raleway), url('../fonts/Raleway-VariableFont_wght.ttf');
+}
+body {
+    background: black;
+}
+
+.banner-content {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(51,168,219,0.2),rgba(0,0,0,0.9)),url('../images/banner.png');
+}
+
+.banner-content .logo {
+    margin-bottom: 20px;
+    background-color: rgba(19, 18, 18, 0.3);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight:900;
+    margin-bottom: 16px;
+    background: -webkit-linear-gradient(rgba(51, 168, 219, 1),rgba(20, 114, 183, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: Raleway;
+    line-height: 23.48px;
+    white-space: pre-line;
+}
+
+.banner-content button {
+    margin-top: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: rgba(49, 168, 221, 1);
+    padding: 19px 91px 19px 91px;
+    background:-webkit-linear-gradient(rgba(59, 161, 205, 1),(rgba(21, 114, 183, 1)));
+    border: 2px solid;
+    margin-bottom: 60px;
+}
+
+.banner-content a {
+    color: rgba(49, 168, 221, 1);
+    background:-webkit-linear-gradient(rgba(59, 161, 205, 1),(rgba(21, 114, 183, 1)));
+    text-decoration: none;
+}
+
+#course-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    color: aliceblue;
+    height: 605px;
+    padding:0px 3px 0px 3px;
+}
+
+#course-content h2 {
+    color: rgba(51, 168, 219, 1);
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+#course-content p {
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 18.78px;
+    white-space: pre-line;
+}
+
+.module {
+    display: flex;
+    background-color: rgba(37, 37, 37, 1);
+    justify-content: center;
+    border-radius: 57px;
+    padding: 16px 127px 16px 127px;
+    margin-top: 20px;
+}
+
+.module span {
+    color: rgba(51, 168, 219, 1);
+}
+
+#transform-world {
+    background-image: url('../images/woman-code.png');
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid rgba(51, 168, 219, 1);
+    border-bottom: 1px solid rgba(51, 168, 219, 1);;
+}
+
+#transform-world  p{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1300px;
+    left: 200px;
+    font-family: Raleway;
+    text-transform: lowercase;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 46.96px;
+    font-weight: 700;
+    text-shadow: 3px 2px rgba(51, 168, 219, 1);
+}
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+    background: rgba(0, 0, 0, 1);
+}
+
+#professional-challenges h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: rgba(51, 168, 219, 1);
+    font-family: Raleway;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 4px;
+}
+
+#professional-challenges p {
+    font-family: Raleway;
+    line-height: 18.78px;
+    text-align: center;
+    white-space: pre-line;
+    font-size: 16px;
+    margin-bottom: 60px;
+} 
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, 1);
+}
+
+footer img{
+    width: 310px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+footer p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgba(51, 168, 219, 1);
+}
